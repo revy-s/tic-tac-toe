@@ -1,8 +1,26 @@
 #board {
+  background-color: #E89E14;
   margin-top: 10px;
 }
 
 .box {
   border: 1px solid black;
   height: 150px;
+}
+
+.row {
+  border-color: black;
+  border-width: 1px;
+}
+
+.col-md-4 {
+  cursor: pointer;
+}
+
+.ehx {
+  background-color: red;
+}
+
+.ohh {
+  background-color: blue;
 }
